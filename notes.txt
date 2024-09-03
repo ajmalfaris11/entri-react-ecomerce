@@ -25,3 +25,15 @@ CONVERT HTML CODE TO JSX CODE
   html to jsx converter     | https://transform.tools/html-to-jsx |
                             |_____________________________________|
 
+
+
+TAKE CSS CODE FROM ALREADY EXISTING PROJECT
+-------------------------------------------
+
+* go to the page
+
+* take inspect
+
+* select sources
+
+* click css file
