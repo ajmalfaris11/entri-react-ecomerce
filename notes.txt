@@ -1,0 +1,12 @@
+Steps :-
+
+A -> create vite react app and install npm
+
+1 - create vite react app (npm create vite@latest)
+2 - change the directory (cd your-project-name)
+3 - install the npm (npm install)
+4 - run the project (npm run dev)
+
+
+
+
