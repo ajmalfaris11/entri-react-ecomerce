@@ -27,13 +27,13 @@ CONVERT HTML CODE TO JSX CODE
 
 
 
-TAKE CSS CODE FROM ALREADY EXISTING PROJECT
--------------------------------------------
+TAKE CSS CODE FROM EXISTING PROJECT
+-----------------------------------
 
-* go to the page
+# go to the page
 
-* take inspect
+# take inspect
 
-* select sources
+# select sources
 
-* click css file
+# click css file
