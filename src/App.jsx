@@ -91,16 +91,16 @@ function App() {
       <div className="container">
         <h2>Similar products</h2>
         <div className="productsList" id="listingDiv">
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
+        <ProductCard Name="Classic Navy Suit" price="$800"/>
+        <ProductCard Name="Gray Wool Blazer" price="$350"/>
+        <ProductCard Name="Black Dress Pants" price="$200"/>
+        <ProductCard Name="White Dress Shirt" price="$100"/>
+        <ProductCard Name="Leather Dress" price="$250"/>
+        <ProductCard Name="Silk Tie" price="$75"/>
+        <ProductCard Name="Brown Leather Belt" price="$50"/>
+        <ProductCard Name="Tailored Vest" price="$150"/>
+        <ProductCard Name="Patterned Pocket " price="$30"/>
+        <ProductCard Name="Overcoat" price="$400"/>
         </div>
       </div>
     </section>

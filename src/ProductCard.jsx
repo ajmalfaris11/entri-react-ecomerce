@@ -1,4 +1,5 @@
-function ProductCard(){
+function ProductCard(item){
+    console.log(item)
  return(
     <article className="product">
             <img
@@ -6,7 +7,7 @@ function ProductCard(){
               alt=""
             />
             <div className="productDetails">
-              <h3 className="h6">My product name</h3>
+              <h3 className="h6">{item.Name}</h3>
               <div>
                 <span>★</span>
                 <span>★</span>
@@ -15,7 +16,7 @@ function ProductCard(){
                 <span>☆ </span>
               </div>
               <div className="priceAndButton">
-                <span className="p">$144</span>
+                <span className="p">{item.price}</span>
                 <button className="button buttonPrimary">Add to cart</button>
               </div>
             </div>
