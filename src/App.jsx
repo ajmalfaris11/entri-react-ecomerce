@@ -91,11 +91,11 @@ function App() {
       <div className="container">
         <h2>Similar products</h2>
         <div className="productsList" id="listingDiv">
-        <ProductCard Name="Classic Navy Suit" price="$800"/>
-        <ProductCard Name="Gray Wool Blazer" price="$350"/>
-        <ProductCard Name="Black Dress Pants" price="$200"/>
-        <ProductCard Name="White Dress Shirt" price="$100"/>
-        <ProductCard Name="Leather Dress" price="$250"/>
+        <ProductCard Name="Classic Navy Suit" price="$800" img="https://th.bing.com/th/id/OIP.q8d6VWs83ogInrjy8AiABwHaLE?w=186&h=278&c=7&r=0&o=5&dpr=1.6&pid=1.7"/>
+        <ProductCard Name="Gray Wool Blazer" price="$350" img="https://th.bing.com/th/id/R.f953f0316250fb25c0d20046f3d85c24?rik=%2f3ZJZCUsHohcsw&riu=http%3a%2f%2fcdnc.lystit.com%2fphotos%2f2012%2f08%2f29%2four-legacy-grey-grey-textured-wool-3-button-rolling-blazer-product-1-4601053-624570913.jpeg&ehk=yuLpyXkXHH%2b4vWcBD6InDOmkD2Em8nG6ra%2fDte8eogg%3d&risl=&pid=ImgRaw&r=0"/>
+        <ProductCard Name="Black Dress Pants" price="$200" img="https://th.bing.com/th/id/OIP.z0abtC4F-V_kNFR5ZsB7YwHaLH?w=186&h=279&c=7&r=0&o=5&dpr=1.6&pid=1.7"/>
+        <ProductCard Name="White Dress Shirt" price="$100" img="https://th.bing.com/th/id/OIP.46iJJvIYoOco43vkIm2V0wHaLH?w=186&h=279&c=7&r=0&o=5&dpr=1.6&pid=1.7"/>
+        <ProductCard Name="Leather Dress" price="$250" img="https://th.bing.com/th/id/OIP.z6iTTHOEnnQ4r8tSdE-mjgHaMD?w=186&h=303&c=7&r=0&o=5&dpr=1.6&pid=1.7"/>
         <ProductCard Name="Silk Tie" price="$75"/>
         <ProductCard Name="Brown Leather Belt" price="$50"/>
         <ProductCard Name="Tailored Vest" price="$150"/>
