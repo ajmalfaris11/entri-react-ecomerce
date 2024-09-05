@@ -3,7 +3,8 @@ function ProductCard(props){
  return(
     <article className="product">
             <img
-              src={props.img}
+            // conditional rendering
+              src={props.img?props.img:"https://static.vecteezy.com/system/resources/previews/005/337/799/original/icon-image-not-found-free-vector.jpg"}
               alt=""
             />
             <div className="productDetails">
@@ -14,7 +15,7 @@ function ProductCard(props){
                 <span>★</span>
                 <span>★</span>
                 <span>☆ </span>
-              </div>
+              </div> 
               <div className="priceAndButton">
                 <span className="p">{props.price}</span>
                 <button className="button buttonPrimary">Add to cart</button>

@@ -232,6 +232,8 @@ nav a {
 
 .product img {
   width: 100%;
+  height: 300px;
+  object-fit: cover; 
 }
 
 .priceAndButton {
@@ -245,4 +247,5 @@ nav a {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-bottom: 1rem;
+  padding-top: 20px;
 }
