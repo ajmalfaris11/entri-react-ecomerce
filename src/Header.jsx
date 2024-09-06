@@ -1,7 +1,12 @@
+import React from 'react';
+import styles from './Header.module.css';
+
+
+
 function Header(){
     return (
-        <header>
-        <div className="container">
+        <header className="{Styles.Header}">
+        <div className="{styles.container}">
           <a id="logo" href="#">
             Cartify
           </a>

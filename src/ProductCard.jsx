@@ -20,7 +20,7 @@ function ProductCard(props){
                 <span className="p">{props.price}</span>
                 <button className="button buttonPrimary">Add to cart</button>
               </div>
-            </div>
+            </div> 
           </article>
  )
 }
