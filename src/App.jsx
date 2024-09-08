@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './Header' ;
 import ProductCard from './ProductCard';
+import products from './Data/products.json';
 
 function App() {
 
