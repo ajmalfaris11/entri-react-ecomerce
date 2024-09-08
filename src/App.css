@@ -191,3 +191,8 @@ p,
   padding-bottom: 1rem;
   padding-top: 20px;
 }
+
+.star{
+  font-size: small;
+  padding-right: 1px;
+}

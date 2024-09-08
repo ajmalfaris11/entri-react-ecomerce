@@ -1,3 +1,7 @@
+// src/index.js or src/App.js
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
 function ProductCard(props) {
   // console.log(props);
 
@@ -10,16 +14,14 @@ function ProductCard(props) {
     if(isDecimal && i === Math.floor(props.star)){
 
       starElements.push(
-        <span>
-          ✬
-        </span>
+        <i class="fa-solid fa-star-half-stroke star"></i>
       );
       
       continue;
     }
     starElements.push(
       <span>
-        {i < props.star ? '★' : '☆'}
+        {i < props.star ? <i class="fa-solid fa-star star"></i> : <i class="fa-regular fa-star star"></i>}
       </span>
     );
 
