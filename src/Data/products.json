@@ -11,28 +11,28 @@
       "name": "Gray Wool Blazer",
       "img": "https://th.bing.com/th/id/R.f953f0316250fb25c0d20046f3d85c24?rik=%2f3ZJZCUsHohcsw&riu=http%3a%2f%2fcdnc.lystit.com%2fphotos%2f2012%2f08%2f29%2four-legacy-grey-grey-textured-wool-3-button-rolling-blazer-product-1-4601053-624570913.jpeg&ehk=yuLpyXkXHH%2b4vWcBD6InDOmkD2Em8nG6ra%2fDte8eogg%3d&risl=&pid=ImgRaw&r=0",
       "price": 850,
-      "star": 5
+      "star": 3
     },
     {
       "id": "3",
       "name": "Black Dress Pants",
       "img": "https://th.bing.com/th/id/OIP.z0abtC4F-V_kNFR5ZsB7YwHaLH?w=186&h=279&c=7&r=0&o=5&dpr=1.6&pid=1.7",
       "price": 350,
-      "star": 3
+      "star": 3.5
     },
     {
       "id": "4",
       "name": "White Dress Shirt",
       "img": "https://th.bing.com/th/id/OIP.46iJJvIYoOco43vkIm2V0wHaLH?w=186&h=279&c=7&r=0&o=5&dpr=1.6&pid=1.7",
       "price": 250,
-      "star": 3
+      "star": 4.6
     },
     {
       "id": "5",
       "name": "Leather Dress",
       "img": "https://th.bing.com/th/id/OIP.z6iTTHOEnnQ4r8tSdE-mjgHaMD?w=186&h=303&c=7&r=0&o=5&dpr=1.6&pid=1.7",
       "price": 1200,
-      "star": 4
+      "star": 2.5
     }
   ]
   
