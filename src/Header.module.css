@@ -6,10 +6,11 @@ Header {
     height: 5rem;
   }
   
-  #logo {
+  .logo {
     color: black;
     font-size: 1.5rem;
     text-decoration: none;
+
   }
   
   section {
@@ -50,7 +51,7 @@ Header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
   }
   
   .actionLinks a {
