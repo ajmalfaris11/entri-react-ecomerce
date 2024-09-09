@@ -1,32 +1,31 @@
 // src/index.js or src/App.js
-import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function ProductCard(props) {
   // console.log(props);
 
   const starElements = [];
   const isDecimal = !Number.isInteger(props.star) ? true : false;
-  console.log(isDecimal)
+  console.log(isDecimal);
 
   // Use a for loop to populate the starElements array
   for (let i = 0; i < 5; i++) {
-    if(isDecimal && i === Math.floor(props.star)){
+    if (isDecimal && i === Math.floor(props.star)) {
+      starElements.push(<i class="fa-solid fa-star-half-stroke star"></i>);
 
-      starElements.push(
-        <i class="fa-solid fa-star-half-stroke star"></i>
-      );
-      
       continue;
     }
     starElements.push(
       <span>
-        {i < props.star ? <i class="fa-solid fa-star star"></i> : <i class="fa-regular fa-star star"></i>}
+        {i < props.star ? (
+          <i class="fa-solid fa-star star"></i>
+        ) : (
+          <i class="fa-regular fa-star star"></i>
+        )}
       </span>
     );
-
   }
- 
+
   return (
     <article className="product">
       <img
@@ -49,7 +48,6 @@ function ProductCard(props) {
         </div>
       </div>
     </article>
-
   );
 }
 
