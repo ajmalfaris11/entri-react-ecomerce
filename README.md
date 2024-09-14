@@ -76,10 +76,4 @@ The goal of this project is to gain a practical understanding of React while dev
 
 Feel free to contribute to the project by opening an issue or submitting a pull request. Let's build this e-commerce application together!
 
-## License
 
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Feel free to modify any section as needed!
